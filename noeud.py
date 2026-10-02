@@ -15,8 +15,7 @@ class Noeud:
         self : Noeud
         noeud actuel
         noeud : Noeud
-        test 
-        test2
+        test3
 
         """
         self.enfants.append(noeud)

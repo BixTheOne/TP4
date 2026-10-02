@@ -6,9 +6,19 @@ class Noeud:
     def __init__(self, valeur, enfants=None):
         self.valeur = valeur
         self.enfants = enfants if enfants is not None else []
+   
     
     def ajouter_noeud(self, noeud):     # Question 2
+        """Ajoute un noeud à la liste d'enfants
+        Parameters
+        ------
+        self : Noeud
+        noeud actuel
+        noeud : Noeud
+        
+        """
         self.enfants.append(noeud)
+
     
     def afficher_expression(self):      # Question 3
         if not self.enfants:
